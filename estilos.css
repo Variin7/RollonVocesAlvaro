@@ -1,0 +1,218 @@
+
+
+
+body{
+    
+    margin-right: 10px;
+    align-content: initial;
+    margin-left: 10px;
+}
+
+main{
+    margin: 0px;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+h1{
+    color: black;
+    font: 300% Calibri;
+    text-align: left;
+}
+
+
+h2{
+    color: black;
+}
+
+img{
+    max-width: 30%;
+    float: left;
+    
+}
+
+table,td {
+    border: 1px solid black;
+    text-align: center;
+    margin:auto;
+    background-color: #44c52a88;
+    width: 600px;
+    height: 50px;
+}
+
+.Mirror{
+    max-width: 300px;
+    float: inherit;
+
+}
+
+.Megamix{
+    max-width: 300px;
+    float: unset;
+}
+.xcube{
+    max-width: 300px;
+    float: unset;
+}
+.gearball{
+    max-width: 300px;
+    float: unset;
+}
+
+.logo{
+    max-width: 4%;
+    float: left;
+}
+
+.Creador{
+    max-width: 33%;
+}
+
+.Paso1{
+    max-width: 10%;
+    float: left;
+}
+
+.Paso2{
+    max-width: 10%;
+    float: left;
+}
+
+.Paso3{
+    max-width: 10%;
+    float: left;
+}
+
+.Paso4{
+    max-width: 10%;
+    float: left;  
+}
+
+.Paso5{
+    max-width: 10%;
+    float: left;  
+}
+
+.Paso6{
+    max-width: 10%;
+    float: left;  
+}
+
+.Paso7{
+    max-width: 10%;
+    float: left;  
+}
+
+.gif{
+    float: right;
+}
+
+#button{
+    padding: 0;
+}
+
+#button li {
+    display: inline;
+    
+    }
+
+#button li a {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    }
+#button li b {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: blue;
+    color: #fff;
+    }
+#button li c {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    } 
+#button li d {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: rgb(136, 136, 2);
+    color: #fff;
+    }
+
+#button li e {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+}
+
+#button li a:hover {
+    background-color: grey;
+    margin-top: -2;
+    padding-bottom: 12px;
+    }
+
+#button li b:hover {
+background-color: blue;
+margin-top: -2;
+padding-bottom: 12px;
+}
+#button li c:hover {
+background-color: orange;
+margin-top: -2;
+padding-bottom: 12px;
+}
+#button li d:hover {
+background-color: rgb(136, 136, 2);
+margin-top: -2;
+padding-bottom: 12px;
+}
+#button li e:hover {
+background-color: red;
+margin-top: -2;
+padding-bottom: 12px;
+}
+
+.container {
+    width: 100%;
+    height: 60px;
+    background: #44c52a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+}
+
+.banner {
+    width: 100%;
+    padding: 9rem 3rem;
+    text-align: center;
+    background: url("../img/fondo.jpg");
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
